@@ -3,7 +3,9 @@
 ## Opis
 Sposób pozwalający uruchomić Audiobajki Disney na Albiku.
 
-<filnik>
+
+[![IMAGE ALT TEXT](https://raw.githubusercontent.com/Patresss/Audiobajki-Disney-plus-Albik/main/Przyk%C5%82ady/Plansza%201.jpg)](https://www.youtube.com/shorts/5ct0cT9k29E)
+
 
 ## Po co?
 
@@ -56,7 +58,7 @@ Write-Host "Konwersja zakonczona."
 ```
   - Po tej operacji pliki działały na komputerze, ale Albik ich nie potrafił odtworzyć. Problem był w metadanych/tagach (ale nie wiem co dokładnie). Za pomocą programu mp3Tag oworzyłem wszystkie pliki i zmieniłem im datę na `2020` - taka zmiana sprawiła, że Albik potrafił odtworzyć pliki.
 3. Mają gotowe pliki wav (`RecXXX.wav`) podłączamy Albika z komputerem i kopiujemy je wszystkie do folder `Rec` (jeżeli go nie mamy to tworzymy go)
-4. Drukujemy planszę - najlepiej zaznaczając opcję "bez krawędzi" (ja zrobiłem to dwustronnie na twardym papierze). Pliki dostępne tutaj: XXXXXX
+4. Drukujemy planszę - najlepiej zaznaczając opcję "bez krawędzi" (ja zrobiłem to dwustronnie na twardym papierze). Pliki dostępne tutaj: https://github.com/Patresss/Audiobajki-Disney-plus-Albik/tree/main/Pliki%20do%20druku
 5. Naklejamy naklejki zgodnie z plikami - np. jeżeli plik `Rec001.wav` zawiera bajkę "101 Dalmatyńczyków" to koło tej bajki naklejamy naklejkę "REC001"
 6. Laminujemy (krok opcjonalny - Albik wykrywa naklejki po laminowaniu)
 7. Gotowe! Możemy teraz używać pióra Albika do słuchania bajek Disneya
