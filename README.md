@@ -29,14 +29,16 @@ Filmik: https://www.youtube.com/shorts/5ct0cT9k29E
  
 ## Instrukcja
 
-1. Pobieramy pliki mp3 z głośnika (choć są też bardzo łatwo dostępne w Internecie)
- - a) Wyciągamy kartę z głośnika i wkładamy ją do komputera
- - b) Kopiujemy pliki na komputer. W zależności od wersji są różne stopnie trudności. Na jednym głośniku miałem łatwo dostępne pliki, a na innym folder miał chińskie znaczki. Dostałem się do niego kopiując pliki na komputer i zmieniając nazwę folderu używając konsoli bash np. z git (https://git-scm.com/downloads):
+1. Dostajemy się do plików
+ - a) Czasami są łatwo dostepne na karcie. Jeżeli tak to je kopiujemy.
+ - b) Gdy nie możemy ich skopiować na komputerze to możemy spróbować włożyć karte do telefonu. Windows nie radzi sobie z chińskimi znaczkami, więc może jest to jakieś rozwiązanie (nie testowałem tego).
+ - c) Możemy zmienić nazwę plików na Windows używajać git bash konsoli (https://git-scm.com/downloads):
+Gdzie `F:` to jest nasza karta, a `D:Audiobajki` docelowe miejsce na naszym komputerze. Komenda `mv` zmienia nazwe folderu.
 ```
 cp -r F:/* D:/Audiobajki/
 mv 波兰语1-99号故事. Audiobajki
 ```
-
+- d) Pliki też są łatwo dostepne w Internecie (przynajmniej wersje z 80 bajkami), jednak nie podam bezpośredneigo linku - naprawdę łatwo je znaleźć.
 2. Konwertujemy pliki mp3 na wav i zmieniamy nazwy pasujące do naklejek np. `Rec001.wav`.
 - a) Możemy zrobić to ręcznie, używając programu AudaCity - https://www.youtube.com/watch?v=9mTua6ZwFJU, ale jest to czasochłonne - musimy zrobić to na każdego pliku
 - b) Ja zrobiłem to w inny sposób (dla bardziej zaawansowanych użytkowników):
