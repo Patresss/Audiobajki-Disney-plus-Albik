@@ -36,9 +36,20 @@ Filmik: https://www.youtube.com/shorts/5ct0cT9k29E
 Gdzie `F:` to jest nasza karta, a `D:Audiobajki` docelowe miejsce na naszym komputerze. Komenda `mv` zmienia nazwe folderu.
 ```
 cp -r F:/* D:/Audiobajki/
-mv 波兰语1-99号故事. Audiobajki
 ```
-- d) Pliki też są łatwo dostepne w Internecie (przynajmniej wersje z 80 bajkami), jednak nie podam bezpośredneigo linku - naprawdę łatwo je znaleźć.
+Po skopiowanie proszę przejść do odpowiedniego folderu w konsoli np.
+```
+cd D:/Audiobajki
+```
+Następnie wykonać komendę do zmiany nazwy:
+```
+mv 波兰语1-99号故事. Audiobajki
+``` 
+Jeżeli nazwa folderu jest inna niż powyżej (inne chińskie znaczki) to należy wykonać komendę "ls" i skopiować nową nazwę i wtedy 
+```
+mv <skopiowana nazwa folderu z chińskimi znaczkami> Audiobajki
+``` 
+- d) Pliki też są łatwo dostep1ne w Internecie (przynajmniej wersje z 80 bajkami), jednak nie podam bezpośredneigo linku - naprawdę łatwo je znaleźć.
 2. Konwertujemy pliki mp3 na wav i zmieniamy nazwy pasujące do naklejek np. `Rec001.wav`.
 - a) Możemy zrobić to ręcznie, używając programu AudaCity - https://www.youtube.com/watch?v=9mTua6ZwFJU, ale jest to czasochłonne - musimy zrobić to na każdego pliku
 - b) Ja zrobiłem to w inny sposób (dla bardziej zaawansowanych użytkowników):
